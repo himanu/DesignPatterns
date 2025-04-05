@@ -1,4 +1,4 @@
-import decorator.StarBuzz;
+import observer.push.WeatherApp;
 import strategy.DuckApp;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
@@ -10,6 +10,9 @@ public class Main {
 
         // strategy pattern
         DuckApp.activateGame();
+
+        // Observer Pattern
+        WeatherApp.start();
 
 
     }
